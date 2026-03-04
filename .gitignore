@@ -1,1 +1,24 @@
-/target
+# Dependencies
+node_modules/
+
+# Output
+build/
+dist/
+
+# Misc
+.DS_Store
+.env
+
+# Environments
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Yarn Internals
+yarn-error.log
+yarn-debug.log
+
+# IDEs
+.idea
+.vscode
