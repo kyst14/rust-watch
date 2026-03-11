@@ -22,3 +22,12 @@ yarn-debug.log
 # IDEs
 .idea
 .vscode
+.vercel
+.env*.local
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db3
+*.db
+*.rdb

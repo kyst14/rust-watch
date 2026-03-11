@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build:server",
+  "outputDirectory": "dist/server",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/server/server.js"
+    }
+  ]
+}
